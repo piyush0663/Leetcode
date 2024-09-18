@@ -1,0 +1,3 @@
+ sort(array.begin(), array.end(), [](const string &a, const string &b) {
+            return (b + a) < (a + b);
+        });
